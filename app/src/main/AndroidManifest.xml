@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="TURF PLAY"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".CustomViewBooking"
+            android:exported="false" />
+        <activity android:name=".custom4" />
+        <activity android:name=".custon_vf" />
+        <activity android:name=".ViewFecility" />
+        <activity android:name=".finalpay" />
+        <activity android:name=".customimgturf" />
+        <activity android:name=".Turfviewowner" />
+        <activity android:name=".Nearbyturf" />
+        <activity android:name=".Facilityunique" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Bookinghistory" />
+        <activity android:name=".Ownerviewturfdetail" />
+        <activity android:name=".Availableslot" />
+        <activity android:name=".custom3feed" />
+        <activity android:name=".custom2" />
+        <activity android:name=".Addnewturf" />
+        <activity android:name=".CustomImg" />
+        <activity android:name=".custom1" />
+        <activity android:name=".SlotsView" />
+        <activity android:name=".FeedbackView" />
+        <activity android:name=".ProfileViewUser" />
+        <activity android:name=".ProfileViewOwner" />
+        <activity android:name=".TurfInfo" />
+        <activity android:name=".ViewFacility" />
+        <activity android:name=".AddFecility" />
+        <activity android:name=".SlotUpdate" />
+        <activity android:name=".IncomeView" />
+        <activity android:name=".BookingView" />
+        <activity android:name=".FeeDetails" />
+        <activity android:name=".BookingStatus" />
+        <activity android:name=".TurfView" />
+
+        <service android:name=".LocationService" />
+
+        <activity android:name=".Ipset">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Feedback" />
+        <activity android:name=".TurfSignup" />
+        <activity android:name=".UserSignup" />
+        <activity android:name=".OwnerHome" />
+        <activity android:name=".UserHome" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".PaymentActivity" />
+    </application>
+
+</manifest>
